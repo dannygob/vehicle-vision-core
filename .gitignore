@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# TensorFlow / PyTorch artifacts
+*.tflite
+*.h5
+*.pb
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Model checkpoints
+checkpoint/
+checkpoints/
+models/*.ckpt
+models/*.h5
+
+# Dataset large files
+dataset/**/*.zip
+dataset/**/*.rar
+dataset/**/*.7z
+dataset/**/*.tar
+dataset/**/*.tar.gz
+
+# Raw datasets (optional)
+raw_data/
+downloads/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
